@@ -1,0 +1,3 @@
+内置 image_gen 生成，原始输出复制为 Courtyard.png。
+
+Use case: stylized-concept. Asset type: seamless repeating top-down pixel-art stone ground tile for a 2D anime fantasy arena. Orthographic straight overhead square texture, evenly sized worn slate cobblestones, subtle tiny moss in cracks, very dark muted blue-gray teal palette. Flat even lighting, restrained contrast so bright chibi characters stand out. Crisp chunky pixel clusters, 16-bit game aesthetic, no blur. Fully opaque edge-to-edge ground ONLY, seamlessly tileable on all four edges, no border, no vignette, no characters, no weapons, no flowers, no buildings, no text, no perspective.

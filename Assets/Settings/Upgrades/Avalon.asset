@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d4d5eb491f24f4aa79badb0c04f293, type: 3}
+  m_Name: Avalon
+  m_EditorClassIdentifier:
+  id: 26
+  title: "Avalon"
+  description: "需要蓄魔。抵挡致命伤，消耗当前持剑数的 20%（至少 5 把），保留 1 生命并无敌 2 秒。首级冷却 60 秒，升级缩短；不消耗魔力。"
+  rarity: 2
+  amount: 0.15
+  perExtraLevel: 0
+  prerequisites: 1b000000
+  requiredBladeCount: 0
+  unique: 0

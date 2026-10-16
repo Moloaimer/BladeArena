@@ -1,0 +1,14 @@
+﻿Boss.wav: 0.700s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Charge.wav: 1.000s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Clash.wav: 0.160s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Death.wav: 0.650s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Hit.wav: 0.075s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Holy.wav: 0.650s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Hurt.wav: 0.220s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Mana.wav: 0.380s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Pickup.wav: 0.160s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Refill.wav: 0.420s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+RoundTable.wav: 0.650s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Shield.wav: 0.300s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Upgrade.wav: 0.500s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping
+Wave.wav: 0.130s, PCM16 mono 22050 Hz, peak 22000/32767, non-clipping

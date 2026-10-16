@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231c0117f8a47f145afb247783096f16, type: 3}
+  m_Name: DefaultArena
+  m_EditorClassIdentifier: 
+  arenaRadius: 22
+  bladeLimit: 30
+  enemyBladeLimit: 48
+  enemyLimit: 32
+  orbLimit: 60
+  enemySpawnInterval: 3.2
+  minimumSpawnInterval: 0.55
+  orbSpawnInterval: 0.65
+  eliteStartTime: 40
+  eliteChance: 0.16
+  pickupRadius: 1.3
+  firstLevelExperience: 5
+  experienceStep: 3
+  hurtInvulnerability: 0.8
+  firstBossTime: 60
+  bossInterval: 90
+  bossHealthGrowth: 400
+  volleyInterval: 4.2
+  enragedVolleyInterval: 2.8
+  bossExperience: 12
+  bossBladeReward: 8
+  upgrades:
+  - {fileID: 11400000, guid: 2130bf9ac3235622ad357e0e09812933, type: 2}
+  - {fileID: 11400000, guid: 4ca7eabf19545e6fbdd5de8b600c257f, type: 2}
+  - {fileID: 11400000, guid: 899e502bf6ba50aea5126772b18f4739, type: 2}
+  - {fileID: 11400000, guid: 7f515df04f04500a9d4f8b5e7a4e1f84, type: 2}
+  - {fileID: 11400000, guid: fb5268f2e8e45f7f911b5f01f663c10d, type: 2}
+  - {fileID: 11400000, guid: c09c90e81dde50f3be905bbd5e3606fd, type: 2}
+  - {fileID: 11400000, guid: 98073d544f65555bb10b4cce71196483, type: 2}
+  - {fileID: 11400000, guid: b7f3ed1abdbe5cf38c186ddce3151975, type: 2}
+  - {fileID: 11400000, guid: eca30b8ceda25b34ac7313dc0bd78fbf, type: 2}
+  - {fileID: 11400000, guid: 5a071787004d5e659fcf82e0e547bff5, type: 2}
+  - {fileID: 11400000, guid: 6ad7fa5e082f5241af580b7a0942f94b, type: 2}
+  - {fileID: 11400000, guid: 30875fa1766a55e38798d06d425524bb, type: 2}
+  - {fileID: 11400000, guid: 08d003d3039456f9824956fb87aa9f01, type: 2}
+  - {fileID: 11400000, guid: 08cc688aa3ec51479438a3c7a6b812ce, type: 2}
+  - {fileID: 11400000, guid: 376ef55cf25453f1b580265b4d7d3652, type: 2}
+  - {fileID: 11400000, guid: bf122d91911f57809f5cfb401112b581, type: 2}
+  - {fileID: 11400000, guid: 9e06e67e1f685942ac2455980d87dd5f, type: 2}
+  - {fileID: 11400000, guid: f1d76e42a3ea59d2b28714825dd39fb1, type: 2}
+  - {fileID: 11400000, guid: 5de95a994ea6583ead72aaf3cf5c30c4, type: 2}
+  - {fileID: 11400000, guid: 6b9fc3c9fb365b81a59ba30274d14e2f, type: 2}
+  - {fileID: 11400000, guid: aa93bfd628675807961ac1ec68958c3a, type: 2}
+  - {fileID: 11400000, guid: 27f11e30ccfc582e9a91b87b7d5a0b79, type: 2}
+  - {fileID: 11400000, guid: 9efdafacfe15518c98095b4cc364da89, type: 2}
+  - {fileID: 11400000, guid: bd9664072414507091cbdec1c4593974, type: 2}
+  - {fileID: 11400000, guid: 09d925d897a3529f8d4cfd625a5e525b, type: 2}
+  - {fileID: 11400000, guid: 6929b3705b3b52adbe0f4d3705007cf0, type: 2}
+  - {fileID: 11400000, guid: c50218bb7c974e86b42d70eee9b8b3a0, type: 2}
+  swordWavePrefab: {fileID: 1156721797211815268, guid: 5e062f04a64a5895b8edbdebf3768a03, type: 3}
+  twinSwordPrefab: {fileID: 2050489598469873796, guid: ebabb1f9cd2b98840870c2e98803cf63, type: 3}
+  reflectedWavePrefab: {fileID: 5276575100255612421, guid: 9587e010e5ba9fe49803f5332447a8ca, type: 3}
+  holySwordPrefab: {fileID: 5037401346101447083, guid: 52854ab87341a4748ab04d629b046bee, type: 3}
+  impactPrefab: {fileID: 1610630754523173867, guid: ca16bff895051c94d891e1426705406f, type: 3}
+  specialWeight: 5
+  commonWeight: 75
+  rareWeight: 20
+  waveHitThreshold: 8
+  comboWindow: 1.5
+  comboMaxStacks: 5
+  burstRadius: 2
+  knockbackRadius: 2.5
+  reforgeDelay: 3
+  avalonEnergyForShield: 100
+  shieldLimit: 3
+  avalonInvulnerability: 2
+  soundPrefab: {fileID: 4420407833152268504, guid: ddb9f6f50fa0bb84a8ac2992031d089f, type: 3}
+  spellAuraPrefab: {fileID: 7767417170798048866, guid: b54a92d4bc9b873408e8891f6e557096, type: 3}
+  manaCapacity: 3
+  manaPerSecond: 0.01
+  manaPerKill: 0.05
+  roundTableRadiusMultiplier: 1.5
+  roundTableSpeedMultiplier: 1.6
+  excaliburChargeDuration: 1
+  excaliburPushRadius: 4
+  baseCriticalChance: 0
+  baseCriticalMultiplier: 2
+  criticalOverflowConversion: 1
+  parryCooldown: 0.6
+  avalonCooldown: 60
+  avalonBladeCostFraction: 0.2
+  enemyHealthGrowthPerMinute: 0.25
+  enemyDamageGrowthPerMinute: 0.1

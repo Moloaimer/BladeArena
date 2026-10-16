@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d4d5eb491f24f4aa79badb0c04f293, type: 3}
+  m_Name: Reflect
+  m_EditorClassIdentifier:
+  id: 23
+  title: "反射剑芒"
+  description: "格挡时独立判定黄色剑气生成。首级 10%，每级 +5 个百分点；倍率 100%，单次命中、不穿透、不暴击。"
+  rarity: 1
+  amount: 0.1
+  perExtraLevel: 0.05
+  prerequisites: 
+  requiredBladeCount: 0
+  unique: 0

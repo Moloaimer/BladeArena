@@ -1,0 +1,95 @@
+﻿UPGRADE_CHECK PASS: Authored player and scene preserved
+UPGRADE_CHECK PASS: 27 unique serialized upgrades
+UPGRADE_CHECK PASS: 14 common, 9 rare, 4 special
+UPGRADE_CHECK PASS: Special requires mana only
+UPGRADE_CHECK PASS: Weights 75/20/5 serialized
+UPGRADE_CHECK PASS: 14 imported audio clips and 8 voices
+UPGRADE_CHECK PASS: Saved charge effect prefab
+UPGRADE_CHECK PASS: No missing scripts in authored scene
+UPGRADE_CHECK PASS: Initial 100 HP, 10 attack, 3/30 swords
+UPGRADE_CHECK PASS: Capacity grows without granting swords
+UPGRADE_CHECK PASS: Attack uses base times one plus 20 percent sqrt rank
+UPGRADE_CHECK PASS: Speed, radius and movement use diminishing growth
+UPGRADE_CHECK PASS: Visual enlargement scales collision radius
+UPGRADE_CHECK PASS: Health upgrade heals 20 percent of new maximum with clamp
+UPGRADE_CHECK PASS: Zero critical chance cannot crit even roll zero
+UPGRADE_CHECK PASS: 100 percent crit is guaranteed
+UPGRADE_CHECK PASS: 130 percent converts to guaranteed 230 percent damage
+UPGRADE_CHECK PASS: Recalculation never reapplies critical overflow
+UPGRADE_CHECK PASS: 200 percent rate yields 300 percent damage
+UPGRADE_CHECK PASS: Sword body contact once, player sword retained
+UPGRADE_CHECK PASS: Enemy flashes red without hit invulnerability
+UPGRADE_CHECK PASS: Different sword deals damage without pushing enemy
+UPGRADE_CHECK PASS: Separation and reentry allow next hit
+UPGRADE_CHECK PASS: Red tint restores after feedback duration
+UPGRADE_CHECK PASS: Normal enemy hit retains sword through same overlap
+UPGRADE_CHECK PASS: Reentry during invulnerability consumes enemy sword
+UPGRADE_CHECK PASS: Clash destroys both weapons immediately
+UPGRADE_CHECK PASS: Same clash cannot resolve twice
+UPGRADE_CHECK PASS: Gate hit retains projectile without duplicate overlap damage
+UPGRADE_CHECK PASS: Blocked Gate reentry consumes projectile
+UPGRADE_CHECK PASS: Rally affects direct damage, skills use attack and own multiplier
+UPGRADE_CHECK PASS: Elite bonus applies to both types in additive bonus pool
+UPGRADE_CHECK PASS: Different swords build one combo stack after first hit
+UPGRADE_CHECK PASS: Same sword preserves but does not add combo stacks
+UPGRADE_CHECK PASS: Yellow skill ignores crit but receives elite bonus
+UPGRADE_CHECK PASS: Other skill damage shares critical formula
+UPGRADE_CHECK PASS: Combo expires after 1.5 seconds without hit
+UPGRADE_CHECK PASS: Triple ring requires double ring and 30 current swords
+UPGRADE_CHECK PASS: Capacity alone never changes layout
+UPGRADE_CHECK PASS: First 30 evenly fill three rings; extras fill outer ring
+UPGRADE_CHECK PASS: Unlocked triple persists and repeats below 30 swords
+UPGRADE_CHECK PASS: Rearrangement produces finite positions after shatters
+UPGRADE_CHECK PASS: 200 percent generation creates two independent single-hit spells at full capacity
+UPGRADE_CHECK PASS: Yellow waves hit once each without crit, piercing or recursive procs
+UPGRADE_CHECK PASS: Pickups do not trigger wave generation or exceed capacity
+UPGRADE_CHECK PASS: Generated wave retargets living enemy
+UPGRADE_CHECK PASS: Targetless waves expire
+UPGRADE_CHECK PASS: Reflection rolls independently at 100 percent without common upgrade
+UPGRADE_CHECK PASS: Mana and special skills locked before reservoir
+UPGRADE_CHECK PASS: Reservoir unlocks three empty slots once only
+UPGRADE_CHECK PASS: 100 active seconds restore one mana
+UPGRADE_CHECK PASS: One kill restores 0.05 mana once
+UPGRADE_CHECK PASS: Mana stops at three slots
+UPGRADE_CHECK PASS: E spends one mana and fills capacity
+UPGRADE_CHECK PASS: E at full capacity costs nothing
+UPGRADE_CHECK PASS: Pause freezes mana and rejects casts
+UPGRADE_CHECK PASS: Tab panel freezes mana
+UPGRADE_CHECK PASS: Q costs two mana and lasts 20 seconds
+UPGRADE_CHECK PASS: Q expands range and speeds irregular orbit
+UPGRADE_CHECK PASS: Q blocks without breaking player swords or firing shatter effects, parry still triggers
+UPGRADE_CHECK PASS: Indestructible Q sword intercepts all overlapping enemy blades in same pass
+UPGRADE_CHECK PASS: Active Q cannot refresh or waste mana
+UPGRADE_CHECK PASS: Repeat Q upgrade extends future duration
+UPGRADE_CHECK PASS: Q expiry restores base orbit stats
+UPGRADE_CHECK PASS: R spends three mana and hides swords while charging
+UPGRADE_CHECK PASS: R charge pushes nearby enemies away
+UPGRADE_CHECK PASS: R charge prevents movement
+UPGRADE_CHECK PASS: R super armor does not grant damage immunity
+UPGRADE_CHECK PASS: Pause freezes charge
+UPGRADE_CHECK PASS: R restores same swords after charge
+UPGRADE_CHECK PASS: R hits visible enemy once at 1000 percent, leaves offscreen enemy untouched
+UPGRADE_CHECK PASS: Repeat R upgrade adds 200 percentage points
+UPGRADE_CHECK PASS: Death cancels unfinished charge and restores weapon state
+UPGRADE_CHECK PASS: Large recycle payout converts multiple shields and keeps remainder
+UPGRADE_CHECK PASS: Shield absorbs before lethal damage
+UPGRADE_CHECK PASS: Lake repeats preserve counter and fixed ten-block threshold
+UPGRADE_CHECK PASS: Five shatters at first magic reforge rank return one sword
+UPGRADE_CHECK PASS: Refund probability has diminishing uncapped ranks below 100 percent
+UPGRADE_CHECK PASS: Avalon consumes ceil 20 percent, leaves one HP and grants two seconds immunity
+UPGRADE_CHECK PASS: Avalon sacrifice does not generate recycle energy
+UPGRADE_CHECK PASS: Avalon upgrade affects next cooldown, cannot reset active cooldown
+UPGRADE_CHECK PASS: Avalon cannot trigger again during cooldown
+UPGRADE_CHECK PASS: 100 draws contain distinct eligible upgrades and exclude unique reservoir
+UPGRADE_CHECK PASS: Tab shows actual stats and freezes play
+UPGRADE_CHECK PASS: Hover displays rank and actual overflow rate
+UPGRADE_CHECK PASS: Attributes preserve previous pause state
+UPGRADE_CHECK PASS: All 27 hover descriptions fit saved panel
+UPGRADE_CHECK PASS: All 27 upgrades fit saved UI slots
+UPGRADE_CHECK PASS: Saved mana and skill controls resolve
+UPGRADE_CHECK PASS: Full upgrade descriptions and next-rank values fit cards
+UPGRADE_CHECK PASS: First boss includes endless health growth
+UPGRADE_CHECK PASS: Gate volley starts with warning
+UPGRADE_CHECK PASS: Boss death clears projectiles, heals and obeys sword capacity
+UPGRADE_CHECK PASS: Restart resets health, swords, upgrades and mana
+UPGRADE_CHECK ALL PASSED: 86

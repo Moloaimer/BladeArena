@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d4d5eb491f24f4aa79badb0c04f293, type: 3}
+  m_Name: Excalibur
+  m_EditorClassIdentifier:
+  id: 25
+  title: "Excalibur"
+  description: "需要蓄魔。R 消耗 3 格魔力，蓄力 1 秒后攻击全屏。倍率首级 1000%，之后每级 +200 个百分点。蓄力时剑隐藏、无法移动，仍会受伤。"
+  rarity: 2
+  amount: 10
+  perExtraLevel: 2
+  prerequisites: 1b000000
+  requiredBladeCount: 0
+  unique: 0

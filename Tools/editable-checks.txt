@@ -1,0 +1,28 @@
+EDITABLE_CHECK PASS: Saved scene has controller, settings, player and Canvas references
+EDITABLE_CHECK PASS: Player is a connected prefab instance in edit mode
+EDITABLE_CHECK PASS: Initial knives are saved scene objects before Play
+EDITABLE_CHECK PASS: Authored enemies and pickups exist before Play
+EDITABLE_CHECK PASS: All spawn prefab and art references resolve
+EDITABLE_CHECK PASS: HUD has six serialized uGUI buttons
+EDITABLE_CHECK PASS: Player starts with authored 1 HP and 3 blades
+EDITABLE_CHECK PASS: Movement preserves authored sprite scale
+EDITABLE_CHECK PASS: Picking up a +2 prefab orb adds two knives
+EDITABLE_CHECK PASS: Configured knife limit is enforced
+EDITABLE_CHECK PASS: Knife collision breaks both prefab instances
+EDITABLE_CHECK PASS: Blocked strike causes no body damage
+EDITABLE_CHECK PASS: Direct body hit deals lethal damage to normal enemy
+EDITABLE_CHECK PASS: Hurt invulnerability prevents repeated damage
+EDITABLE_CHECK PASS: Upgrade pauses with three distinct choices
+EDITABLE_CHECK PASS: uGUI upgrade button applies health upgrade
+EDITABLE_CHECK PASS: uGUI pause freezes simulation
+EDITABLE_CHECK PASS: uGUI resume continues simulation
+EDITABLE_CHECK PASS: Boss prefab automatically spawns at 60 seconds
+EDITABLE_CHECK PASS: Endless spawns respect settings limits
+EDITABLE_CHECK PASS: Gate projectile prefab provides a warning phase
+EDITABLE_CHECK PASS: Orbit blade blocks golden projectile
+EDITABLE_CHECK PASS: Boss death grants reward and clears projectiles
+EDITABLE_CHECK PASS: A direct hit kills base-health player
+EDITABLE_CHECK PASS: Death panel is an active serialized Canvas panel
+EDITABLE_CHECK PASS: Scene reload resets progression and restores authored player
+EDITABLE_CHECK PASS: Scene reload restores authored placements
+EDITABLE_CHECK ALL PASSED

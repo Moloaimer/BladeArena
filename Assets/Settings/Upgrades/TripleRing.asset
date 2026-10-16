@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d4d5eb491f24f4aa79badb0c04f293, type: 3}
+  m_Name: TripleRing
+  m_EditorClassIdentifier:
+  id: 16
+  title: "三重剑阵"
+  description: "首次需双层剑阵和 30 把剑，永久解锁三圈。半径额外增加基础值的 5% × √等级；超过 30 把的剑全部加入外圈。"
+  rarity: 1
+  amount: 0.05
+  perExtraLevel: 0
+  prerequisites: 0f000000
+  requiredBladeCount: 30
+  unique: 0

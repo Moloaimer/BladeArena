@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d4d5eb491f24f4aa79badb0c04f293, type: 3}
+  m_Name: LakeBlessing
+  m_EditorClassIdentifier:
+  id: 21
+  title: "湖之加护"
+  description: "每累计撞碎 10 把敌刀，获得一层护盾。每级护盾容量 +1；升级保留计数。"
+  rarity: 1
+  amount: 10
+  perExtraLevel: 0
+  prerequisites: 
+  requiredBladeCount: 0
+  unique: 0
